@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-md">
-      <div className="max-w-7xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 py-1 md:py-2 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-4xl font-heading font-bold text-blue-600 font-heading">
@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
 
             {/* button */}
-            <a href="https://wa.me/message/QXZRVT3NLXWRP1" className="hidden md:flex bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg text-md font-medium transition-colors">
+            <a href="https://wa.me/message/QXZRVT3NLXWRP1" className="hidden md:flex bg-blue-600 hover:bg-blue-700 px-0 md:px-8 py-3 rounded-lg text-sm font-thin  md:text-md md:font-medium transition-colors">
                 Book Now
             </a>
 
