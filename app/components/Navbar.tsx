@@ -18,7 +18,7 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8 text-lg">
-            <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
               Home
             </Link>
             <Link href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">
@@ -73,7 +73,7 @@ export default function Navbar() {
         <div className="md:hidden bg-white border-t">
           <div className="px-4 pt-2 pb-4 space-y-2">
             <Link
-              href="/"
+              href="#"
               className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition-colors"
               onClick={() => setIsOpen(false)}
             >
